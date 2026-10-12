@@ -31,6 +31,20 @@ Comment améliorer le docker-compose.yaml pour générer à la fois un service a
 ---
 
 ## Ajouter de la persistance et du hot-reloading au guestbook
+Enregistrer les données dans un volume persistant et automatiser le build.
+
+### Problème rencontré et pourquoi il est survenu
+J'essaie de faire fonctionner le dockerfile avec plusieurs images.
+
+### Solution appliquée et pourquoi cette solution fonctionne
+J'ai retiré l'ancienne image from scratch.
+
+### Ce que j'ai appris
+J'ai appris le concept de Hot-Reloading et comment Air et le volume du service Guestbook fonctionne pour faire marcher le Hot-Reloading.
+
+---
+
+## Créer des stacks avec du hot-reloading
 
 
 ### Problème rencontré et pourquoi il est survenu
