@@ -17,6 +17,20 @@ Puis, une fois que ca fonctionne, on réalise un Docker-compose.yaml pour automa
 ---
 
 ## Ajouter une base de données à votre service
+Le but est d'ajouter une BDD Redis à l'application.
+
+### Problème rencontré et pourquoi il est survenu
+Je ne savais pas comment dire à au service Guestbook comment acceder à Redis
+
+### Solution appliquée et pourquoi cette solution fonctionne
+Ajouter une variable d'environnement qui donne le nom du service de BDD Redis
+
+### Ce que j'ai appris
+Comment améliorer le docker-compose.yaml pour générer à la fois un service applicatif et le faire communiquer avec une BDD.
+
+---
+
+## Ajouter de la persistance et du hot-reloading au guestbook
 
 
 ### Problème rencontré et pourquoi il est survenu
